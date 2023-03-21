@@ -1,0 +1,29 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: serif;
+}
+body{
+    background-color: aliceblue;
+    width: 100vh;
+    height: 100vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+}  
+h2{
+    font-weight: 400;
+    color: teal;
+}
+.container{
+    width: 300px;
+}
+.form-group{
+    width: 100%;
+    display: flex;
+    margin: 20px 5px;
+    gap: 10px;
+}
